@@ -1,11 +1,13 @@
+import Header from "./component/header/Header";
+import Hero from "./component/hero/Hero";
+import Footer from "./component/footer/Footer";
+
 function App() {
   return (
     <>
-      <div className="p-4 dark:bg-slate-700">
-        <h1 className="text-3xl font-bold underline text-green-600 hover:text-purple-500 text-primary">
-          Hello world!
-        </h1>
-      </div>
+      <Header />
+      <Hero />
+      <Footer />
     </>
   );
 }
