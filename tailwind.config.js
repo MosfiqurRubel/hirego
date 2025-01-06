@@ -7,9 +7,11 @@ export default {
         plex: ['"IBM Plex Sans", serif'],
       },
       colors: {
-        primary: "rgba(0, 0, 0, 0.85)",
+        primary: "#141414",
+        secondary: "rgba(0, 0, 0, 0.65)",
         hero: "#B1D8FC",
         footer: "#1B1B1B",
+        badge: "#9149ED",
       },
     },
   },
