@@ -43,16 +43,16 @@ function App() {
                 clicks.
               </p>
             </header>
-            <button
-              type="button"
-              className="py-[13px] px-6 inline-flex items-center gap-x-2 text-lg font-medium rounded-full border border-transparent bg-black/85 text-white hover:bg-blue-700 hover:text-white focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+            <a
+              href="#"
+              className="py-[11px] px-6 inline-flex items-center gap-x-2 text-lg leading-6 font-medium rounded-full border border-transparent bg-white text-black/85 hover:bg-slate-200 focus:outline-none focus:bg-slate-200 disabled:opacity-50 disabled:pointer-events-none"
             >
               Hire international talent{" "}
               <AppSvgIcon
-                name="arrowRightWhite"
-                className="w-[9px] h-3.5 text-transparent"
+                name="arrowRightLang"
+                className="w-[15px] h-[11px] text-transparent"
               />
-            </button>
+            </a>
             <img
               src={hireImage}
               alt="Hero"
@@ -71,16 +71,16 @@ function App() {
                   and payments.
                 </p>
               </header>
-              <button
-                type="button"
-                className="py-[13px] px-6 inline-flex items-center gap-x-2 text-lg font-medium rounded-full border border-transparent bg-black/85 text-white hover:bg-blue-700 hover:text-white focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+              <a
+                href="#"
+                className="py-[11px] px-6 inline-flex items-center gap-x-2 text-lg leading-6 font-medium rounded-full border border-transparent bg-white text-black/85 hover:bg-slate-200 focus:outline-none focus:bg-slate-200 disabled:opacity-50 disabled:pointer-events-none"
               >
                 Hire contractors{" "}
                 <AppSvgIcon
-                  name="arrowRightWhite"
-                  className="w-[9px] h-3.5 text-transparent"
+                  name="arrowRightLang"
+                  className="w-[15px] h-[11px] text-transparent"
                 />
-              </button>
+              </a>
             </div>
             <div className="bg-hero max-md:p-6 md:p-12 space-y-4 rounded-3xl">
               <header className="space-y-4">
@@ -92,16 +92,16 @@ function App() {
                   convert contractors to full-timers, all under one platform.
                 </p>
               </header>
-              <button
-                type="button"
-                className="py-[13px] px-6 inline-flex items-center gap-x-2 text-lg font-medium rounded-full border border-transparent bg-black/85 text-white hover:bg-blue-700 hover:text-white focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+              <a
+                href="#"
+                className="py-[11px] px-6 inline-flex items-center gap-x-2 text-lg leading-6 font-medium rounded-full border border-transparent bg-white text-black/85 hover:bg-slate-200 focus:outline-none focus:bg-slate-200 disabled:opacity-50 disabled:pointer-events-none"
               >
                 Convert contractors{" "}
                 <AppSvgIcon
-                  name="arrowRightWhite"
-                  className="w-[9px] h-3.5 text-transparent"
+                  name="arrowRightLang"
+                  className="w-[15px] h-[11px] text-transparent"
                 />
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -272,7 +272,7 @@ function App() {
                   </p>
                   <button
                     type="button"
-                    className="py-[9px] px-6 inline-flex items-center gap-x-3 text-lg font-medium capitalize rounded-full border border-secondary bg-white text-black/85 hover:bg-blue-700 hover:text-white focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+                    className="py-[9px] px-6 inline-flex items-center gap-x-3 text-lg font-medium capitalize rounded-full border border-secondary bg-white text-black/85 hover:bg-slate-200 focus:outline-none focus:bg-slate-200 disabled:opacity-50 disabled:pointer-events-none"
                   >
                     Start now{" "}
                     <AppSvgIcon

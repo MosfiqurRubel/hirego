@@ -13,16 +13,16 @@ const Footer = () => {
         </p>
       </div>
       <div className="text-center">
-        <button
-          type="button"
-          className="py-[13px] px-6 inline-flex items-center gap-x-2 text-lg font-medium rounded-full border border-transparent bg-white text-black/85 hover:bg-blue-700 hover:text-white focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+        <a
+          href="#"
+          className="py-[13px] px-6 inline-flex items-center gap-x-2 text-lg font-medium rounded-full border border-transparent bg-white text-black/85 hover:bg-slate-200 focus:outline-none focus:bg-slate-200 disabled:opacity-50 disabled:pointer-events-none"
         >
           Request a demo{" "}
           <AppSvgIcon
             name="arrowRight"
             className="w-[9px] h-[15px] text-transparent"
           />
-        </button>
+        </a>
       </div>
 
       <hr className="h-[1px] border-t border-white/[0.16] md:my-20 max-md:my-16" />

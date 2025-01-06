@@ -2,7 +2,7 @@ import Logo from "./../logo/Logo";
 import AppSvgIcon from "./../common/appSvgIcon/AppSvgIcon";
 const Header = () => {
   return (
-    <header className="flex gap-4 md:px-[120px] max-md:px-6 max-md:py-2 md:py-4">
+    <header className="flex gap-4 max-md:items-center md:px-[120px] max-md:px-6 max-md:py-3 md:py-4">
       <div id="logo" className="flex-none">
         <Logo />
       </div>
@@ -75,13 +75,13 @@ const Header = () => {
       </a>
       <a
         href=""
-        className="max-md:hidden py-[7px] px-6 inline-flex items-center gap-x-2 text-base font-medium rounded-full border border-transparent bg-black/85 text-white hover:bg-gray-200"
+        className="max-md:hidden py-[7px] px-6 inline-flex items-center gap-x-2 text-base font-medium rounded-full border border-transparent bg-black/85 text-white hover:bg-slate-700 focus:outline-none focus:bg-slate-700 disabled:opacity-50 disabled:pointer-events-none"
       >
         Request a demo
       </a>
       <button
         type="button"
-        className="md:hidden size- inline-flex items-center gap-x-2 text-lg font-medium rounded-full border border-transparent bg-transparent hover:bg-slate-200 hover:border-secondary"
+        className="md:hidden size-10 inline-flex items-center justify-center gap-x-2 text-lg font-medium rounded-full border border-transparent bg-transparent hover:bg-slate-200 hover:border-secondary"
       >
         <AppSvgIcon name="hamburger" className="size-8 text-transparent" />
       </button>

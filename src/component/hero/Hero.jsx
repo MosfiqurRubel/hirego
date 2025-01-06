@@ -35,16 +35,16 @@ const Hero = () => {
           </li>
         </ul>
 
-        <button
-          type="button"
-          className="py-[13px] px-6 inline-flex items-center gap-x-2 text-lg font-medium rounded-full border border-transparent bg-black/85 text-white hover:bg-blue-700 hover:text-white focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+        <a
+          href="#"
+          className="py-[13px] px-6 inline-flex items-center gap-x-2 text-lg font-medium rounded-full border border-transparent bg-black/85 text-white hover:bg-slate-700 focus:outline-none focus:bg-slate-700 disabled:opacity-50 disabled:pointer-events-none"
         >
           Request a demo{" "}
           <AppSvgIcon
             name="arrowRightWhite"
             className="w-[9px] h-3.5 text-transparent"
           />
-        </button>
+        </a>
       </div>
       <div className="object-contain relative max-md:mx-auto">
         <img
